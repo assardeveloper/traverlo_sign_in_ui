@@ -1,6 +1,6 @@
-# PipeLine Sign Up UI – Flutter
+# Traverlo Sign In UI – Flutter
 
-A dark sign up screen with a sky blue gradient, Google and Github buttons and smooth animations, built with Flutter.
+A blue gradient sign-in screen with sparkles, a translucent email/password card, a glowing "Sign in now" button and selectable Facebook/Google/Apple options, built with Flutter.
 
 ## Run it
 
@@ -11,12 +11,13 @@ flutter run
 
 ## Files
 
-- `lib/main.dart` – app entry point
-- `lib/sign_up_page.dart` – the sign up screen
-- `lib/sign_up_widgets.dart` – colors, logo, social buttons, Google icon, text fields and sign up button
-- `lib/sign_up_animations.dart` – staggered entrance, breathing background, spinning logo ring, press and shimmer effects
+- `lib/main.dart` – app entry point and the sign in page
+- `lib/sign_in_widgets.dart` – colors, font helper and reusable widgets: background with sparkles, logo, fields card, field, primary button, divider and social tile
 
 ## Packages
 
-- [google_fonts](https://pub.dev/packages/google_fonts) – Outfit font
-- [font_awesome_flutter](https://pub.dev/packages/font_awesome_flutter) – Github icon
+- [google_fonts](https://pub.dev/packages/google_fonts) – Plus Jakarta Sans font, bundled in `assets/google_fonts/` so it works offline
+
+## Credits
+
+Plus Jakarta Sans is licensed under the SIL Open Font License (`assets/google_fonts/OFL.txt`).
